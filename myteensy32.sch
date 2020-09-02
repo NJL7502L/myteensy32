@@ -810,72 +810,39 @@ Connection ~ 5050 2500
 $Comp
 L Connector:Conn_01x14_Male J2
 U 1 1 5F856F86
-P 1450 2000
-F 0 "J2" H 1558 2781 50  0000 C CNN
-F 1 "Conn_01x14_Male" H 1558 2690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1450 2000 50  0001 C CNN
-F 3 "~" H 1450 2000 50  0001 C CNN
-	1    1450 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x14_Male J1
-U 1 1 5F859077
-P 950 3400
-F 0 "J1" H 1058 4181 50  0000 C CNN
-F 1 "Conn_01x14_Male" H 1058 4090 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 950 3400 50  0001 C CNN
-F 3 "~" H 950 3400 50  0001 C CNN
-	1    950  3400
+P 1100 2000
+F 0 "J2" H 1072 1974 50  0000 R CNN
+F 1 "Conn_01x14_Male" H 1072 1883 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1100 2000 50  0001 C CNN
+F 3 "~" H 1100 2000 50  0001 C CNN
+	1    1100 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1500 2300 1500
+	1300 1500 1700 1500
 Wire Wire Line
-	2300 1600 1650 1600
+	2300 1600 1700 1600
 Wire Wire Line
-	1650 1700 2300 1700
+	1300 1700 1700 1700
 Wire Wire Line
-	2300 2000 1650 2000
+	2300 2000 1700 2000
 Wire Wire Line
-	1650 2100 2300 2100
+	1300 2100 1700 2100
 Wire Wire Line
-	2300 2200 1650 2200
+	2300 2200 1700 2200
 Wire Wire Line
-	1650 2300 2300 2300
+	1300 2300 1700 2300
 Wire Wire Line
-	2300 2400 1650 2400
+	2300 2400 1700 2400
 Wire Wire Line
-	1650 2500 2300 2500
+	1300 2500 1700 2500
 Wire Wire Line
-	2300 2600 1650 2600
+	2300 2600 1700 2600
 Wire Wire Line
-	1650 2700 2300 2700
-Wire Wire Line
-	2300 2800 1150 2800
-Wire Wire Line
-	1150 2900 2300 2900
-Wire Wire Line
-	2300 3000 1150 3000
-Wire Wire Line
-	1150 3100 2300 3100
-Wire Wire Line
-	2300 3200 1150 3200
-Wire Wire Line
-	1150 3300 2300 3300
-Wire Wire Line
-	2300 3400 1150 3400
-Wire Wire Line
-	2300 3500 1150 3500
-Wire Wire Line
-	2300 3600 1150 3600
-Wire Wire Line
-	1150 3700 2300 3700
-Wire Wire Line
-	2300 3800 1150 3800
-Text Label 1650 1800 0    50   ~ 0
+	1300 2700 1700 2700
+Text Label 1750 1800 0    50   ~ 0
 CAN+
-Text Label 1650 1900 0    50   ~ 0
+Text Label 1750 1900 0    50   ~ 0
 CAN-
 Text Label 2300 1800 2    50   ~ 0
 CAN_TX
@@ -893,46 +860,40 @@ F 3 "" H 1800 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1800 1400 1650 1400
+	1800 1400 1700 1400
 $Comp
 L power:+5V #PWR0126
 U 1 1 5F945E14
-P 1300 4100
-F 0 "#PWR0126" H 1300 3950 50  0001 C CNN
-F 1 "+5V" V 1315 4228 50  0000 L CNN
-F 2 "" H 1300 4100 50  0001 C CNN
-F 3 "" H 1300 4100 50  0001 C CNN
-	1    1300 4100
+P 1550 4100
+F 0 "#PWR0126" H 1550 3950 50  0001 C CNN
+F 1 "+5V" V 1565 4228 50  0000 L CNN
+F 2 "" H 1550 4100 50  0001 C CNN
+F 3 "" H 1550 4100 50  0001 C CNN
+	1    1550 4100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1300 4100 1150 4100
 $Comp
 L power:GND #PWR0127
 U 1 1 5F9534FD
-P 1200 4000
-F 0 "#PWR0127" H 1200 3750 50  0001 C CNN
-F 1 "GND" V 1205 3872 50  0000 R CNN
-F 2 "" H 1200 4000 50  0001 C CNN
-F 3 "" H 1200 4000 50  0001 C CNN
-	1    1200 4000
+P 1400 4000
+F 0 "#PWR0127" H 1400 3750 50  0001 C CNN
+F 1 "GND" V 1405 3872 50  0000 R CNN
+F 2 "" H 1400 4000 50  0001 C CNN
+F 3 "" H 1400 4000 50  0001 C CNN
+	1    1400 4000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1200 4000 1150 4000
 $Comp
 L power:+3V3 #PWR0128
 U 1 1 5F95A08F
-P 1300 3900
-F 0 "#PWR0128" H 1300 3750 50  0001 C CNN
-F 1 "+3V3" V 1315 4028 50  0000 L CNN
-F 2 "" H 1300 3900 50  0001 C CNN
-F 3 "" H 1300 3900 50  0001 C CNN
-	1    1300 3900
+P 1450 3900
+F 0 "#PWR0128" H 1450 3750 50  0001 C CNN
+F 1 "+3V3" V 1465 4028 50  0000 L CNN
+F 2 "" H 1450 3900 50  0001 C CNN
+F 3 "" H 1450 3900 50  0001 C CNN
+	1    1450 3900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1300 3900 1150 3900
 Text Label 2250 2800 2    50   ~ 0
 INTERNAL_LED
 Text Label 10400 5350 0    50   ~ 0
@@ -1166,14 +1127,272 @@ Connection ~ 5500 1050
 Wire Wire Line
 	5500 1050 5500 1350
 Connection ~ 6400 1850
-Wire Bus Line
-	5800 5400 5800 6800
+$Comp
+L Connector:Conn_01x07_Male J?
+U 1 1 5F5015E6
+P 10800 1800
+F 0 "J?" H 10908 2281 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 10908 2190 50  0000 C CNN
+F 2 "" H 10800 1800 50  0001 C CNN
+F 3 "~" H 10800 1800 50  0001 C CNN
+	1    10800 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1800 10000 1800
+Wire Wire Line
+	10600 1900 10000 1900
+Wire Wire Line
+	10600 2000 10000 2000
+Wire Wire Line
+	10600 2100 10000 2100
+Entry Wire Line
+	10000 1800 9900 1900
+Entry Wire Line
+	10000 1900 9900 2000
+Entry Wire Line
+	10000 2000 9900 2100
+Entry Wire Line
+	10000 2100 9900 2200
+Entry Wire Line
+	10000 1700 9900 1800
+Wire Wire Line
+	10600 1700 10000 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5F5B1720
+P 10300 1600
+F 0 "#PWR?" H 10300 1350 50  0001 C CNN
+F 1 "GND" V 10305 1472 50  0000 R CNN
+F 2 "" H 10300 1600 50  0001 C CNN
+F 3 "" H 10300 1600 50  0001 C CNN
+	1    10300 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10300 1600 10600 1600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F5B9B2F
+P 10400 1300
+F 0 "#PWR?" H 10400 1150 50  0001 C CNN
+F 1 "+3V3" H 10415 1473 50  0000 C CNN
+F 2 "" H 10400 1300 50  0001 C CNN
+F 3 "" H 10400 1300 50  0001 C CNN
+	1    10400 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 1300 10400 1500
+Wire Wire Line
+	10400 1500 10600 1500
+Text Label 10550 1700 2    50   ~ 0
+RESET
+Text Label 10550 1800 2    50   ~ 0
+PTA0
+Text Label 10550 1900 2    50   ~ 0
+PTA1
+Text Label 10550 2000 2    50   ~ 0
+PTA2
+Text Label 10550 2100 2    50   ~ 0
+PTA3
+$Comp
+L Connector:Conn_01x14_Male J?
+U 1 1 5F5C3715
+P 1100 3400
+F 0 "J?" H 1208 2567 50  0000 C CNN
+F 1 "Conn_01x14_Male" H 1208 2476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1100 3400 50  0001 C CNN
+F 3 "~" H 1100 3400 50  0001 C CNN
+	1    1100 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3600 1300 3600
+Wire Wire Line
+	2300 3500 1300 3500
+Wire Wire Line
+	2300 3400 1300 3400
+Wire Wire Line
+	900  3300 1300 3300
+Wire Wire Line
+	2300 3200 1300 3200
+Wire Wire Line
+	900  3100 1300 3100
+Wire Wire Line
+	2300 3000 1300 3000
+Wire Wire Line
+	900  2900 1300 2900
+Wire Wire Line
+	1550 4100 1300 4100
+Wire Wire Line
+	1400 4000 1300 4000
+Wire Wire Line
+	1450 3900 1300 3900
+Wire Wire Line
+	2300 3800 1300 3800
+Wire Wire Line
+	900  3700 1300 3700
+Wire Wire Line
+	2300 2800 1300 2800
+$Comp
+L Connector:Conn_01x14_Male J1
+U 1 1 5F859077
+P 700 3400
+F 0 "J1" H 672 3374 50  0000 R CNN
+F 1 "Conn_01x14_Male" H 672 3283 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 700 3400 50  0001 C CNN
+F 3 "~" H 700 3400 50  0001 C CNN
+	1    700  3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 2800
+Wire Wire Line
+	1300 2800 900  2800
+Connection ~ 1300 3700
+Wire Wire Line
+	1300 3700 2300 3700
+Connection ~ 1300 3800
+Wire Wire Line
+	1300 3800 900  3800
+Connection ~ 1300 3900
+Wire Wire Line
+	1300 3900 900  3900
+Connection ~ 1300 4000
+Wire Wire Line
+	1300 4000 900  4000
+Connection ~ 1300 4100
+Wire Wire Line
+	1300 4100 900  4100
+Connection ~ 1300 2900
+Wire Wire Line
+	1300 2900 2300 2900
+Connection ~ 1300 3000
+Wire Wire Line
+	1300 3000 900  3000
+Connection ~ 1300 3100
+Wire Wire Line
+	1300 3100 2300 3100
+Connection ~ 1300 3200
+Wire Wire Line
+	1300 3200 900  3200
+Connection ~ 1300 3300
+Wire Wire Line
+	1300 3300 2300 3300
+Connection ~ 1300 3400
+Wire Wire Line
+	1300 3400 900  3400
+Connection ~ 1300 3500
+Wire Wire Line
+	1300 3500 900  3500
+Connection ~ 1300 3600
+Wire Wire Line
+	1300 3600 900  3600
+Wire Wire Line
+	1750 1800 1700 1800
+Wire Wire Line
+	1300 1900 1700 1900
+$Comp
+L Connector:Conn_01x14_Male J?
+U 1 1 5F64E8EE
+P 1500 2000
+F 0 "J?" H 1608 2781 50  0000 C CNN
+F 1 "Conn_01x14_Male" H 1608 2690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1500 2000 50  0001 C CNN
+F 3 "~" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 1400
+Wire Wire Line
+	1700 1400 1300 1400
+Connection ~ 1700 2300
+Wire Wire Line
+	1700 2300 2300 2300
+Connection ~ 1700 2400
+Wire Wire Line
+	1700 2400 1300 2400
+Connection ~ 1700 2500
+Wire Wire Line
+	1700 2500 2300 2500
+Connection ~ 1700 2600
+Wire Wire Line
+	1700 2600 1300 2600
+Connection ~ 1700 2700
+Wire Wire Line
+	1700 2700 2300 2700
+Connection ~ 1700 1500
+Wire Wire Line
+	1700 1500 2300 1500
+Connection ~ 1700 1600
+Wire Wire Line
+	1700 1600 1300 1600
+Connection ~ 1700 1700
+Wire Wire Line
+	1700 1700 2300 1700
+Connection ~ 1700 1800
+Wire Wire Line
+	1700 1800 1300 1800
+Connection ~ 1700 1900
+Wire Wire Line
+	1700 1900 1750 1900
+Connection ~ 1700 2000
+Wire Wire Line
+	1700 2000 1300 2000
+Connection ~ 1700 2100
+Wire Wire Line
+	1700 2100 2300 2100
+Connection ~ 1700 2200
+Wire Wire Line
+	1700 2200 1300 2200
+$Comp
+L Connector:Conn_01x14_Male J?
+U 1 1 5F6768BE
+P 1900 4600
+F 0 "J?" H 1872 4574 50  0000 R CNN
+F 1 "Conn_01x14_Male" H 1872 4483 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1900 4600 50  0001 C CNN
+F 3 "~" H 1900 4600 50  0001 C CNN
+	1    1900 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4000 2300 4000
+Wire Wire Line
+	2300 4100 2100 4100
+Wire Wire Line
+	2100 4200 2300 4200
+Wire Wire Line
+	2300 4300 2100 4300
+Wire Wire Line
+	2100 4400 2300 4400
+Wire Wire Line
+	2300 4500 2100 4500
+Wire Wire Line
+	2100 4600 2300 4600
+Wire Wire Line
+	2300 4700 2100 4700
+Wire Wire Line
+	2100 4800 2300 4800
+Wire Wire Line
+	2300 4900 2100 4900
+Wire Wire Line
+	2100 5000 2300 5000
+Wire Wire Line
+	2300 5100 2100 5100
+Wire Wire Line
+	2100 5200 2300 5200
+Wire Wire Line
+	2300 5300 2100 5300
+NoConn ~ 2300 3900
 Wire Bus Line
 	5000 6600 5000 6800
 Wire Bus Line
+	5800 5400 5800 6800
+Wire Bus Line
 	6500 3300 6500 4700
 Wire Bus Line
-	9900 3100 9900 4700
-Wire Bus Line
 	4900 4300 4900 4700
+Wire Bus Line
+	9900 1800 9900 4700
 $EndSCHEMATC
