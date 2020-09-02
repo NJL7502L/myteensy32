@@ -1128,12 +1128,12 @@ Wire Wire Line
 	5500 1050 5500 1350
 Connection ~ 6400 1850
 $Comp
-L Connector:Conn_01x07_Male J?
+L Connector:Conn_01x07_Male J7
 U 1 1 5F5015E6
 P 10800 1800
-F 0 "J?" H 10908 2281 50  0000 C CNN
+F 0 "J7" H 10908 2281 50  0000 C CNN
 F 1 "Conn_01x07_Male" H 10908 2190 50  0000 C CNN
-F 2 "" H 10800 1800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 10800 1800 50  0001 C CNN
 F 3 "~" H 10800 1800 50  0001 C CNN
 	1    10800 1800
 	-1   0    0    -1  
@@ -1159,10 +1159,10 @@ Entry Wire Line
 Wire Wire Line
 	10600 1700 10000 1700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5F5B1720
 P 10300 1600
-F 0 "#PWR?" H 10300 1350 50  0001 C CNN
+F 0 "#PWR0106" H 10300 1350 50  0001 C CNN
 F 1 "GND" V 10305 1472 50  0000 R CNN
 F 2 "" H 10300 1600 50  0001 C CNN
 F 3 "" H 10300 1600 50  0001 C CNN
@@ -1172,10 +1172,10 @@ $EndComp
 Wire Wire Line
 	10300 1600 10600 1600
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0134
 U 1 1 5F5B9B2F
 P 10400 1300
-F 0 "#PWR?" H 10400 1150 50  0001 C CNN
+F 0 "#PWR0134" H 10400 1150 50  0001 C CNN
 F 1 "+3V3" H 10415 1473 50  0000 C CNN
 F 2 "" H 10400 1300 50  0001 C CNN
 F 3 "" H 10400 1300 50  0001 C CNN
@@ -1197,10 +1197,10 @@ PTA2
 Text Label 10550 2100 2    50   ~ 0
 PTA3
 $Comp
-L Connector:Conn_01x14_Male J?
+L Connector:Conn_01x14_Male J4
 U 1 1 5F5C3715
 P 1100 3400
-F 0 "J?" H 1208 2567 50  0000 C CNN
+F 0 "J4" H 1208 2567 50  0000 C CNN
 F 1 "Conn_01x14_Male" H 1208 2476 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1100 3400 50  0001 C CNN
 F 3 "~" H 1100 3400 50  0001 C CNN
@@ -1293,10 +1293,10 @@ Wire Wire Line
 Wire Wire Line
 	1300 1900 1700 1900
 $Comp
-L Connector:Conn_01x14_Male J?
+L Connector:Conn_01x14_Male J5
 U 1 1 5F64E8EE
 P 1500 2000
-F 0 "J?" H 1608 2781 50  0000 C CNN
+F 0 "J5" H 1608 2781 50  0000 C CNN
 F 1 "Conn_01x14_Male" H 1608 2690 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1500 2000 50  0001 C CNN
 F 3 "~" H 1500 2000 50  0001 C CNN
@@ -1346,10 +1346,10 @@ Connection ~ 1700 2200
 Wire Wire Line
 	1700 2200 1300 2200
 $Comp
-L Connector:Conn_01x14_Male J?
+L Connector:Conn_01x14_Male J6
 U 1 1 5F6768BE
 P 1900 4600
-F 0 "J?" H 1872 4574 50  0000 R CNN
+F 0 "J6" H 1872 4574 50  0000 R CNN
 F 1 "Conn_01x14_Male" H 1872 4483 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1900 4600 50  0001 C CNN
 F 3 "~" H 1900 4600 50  0001 C CNN
@@ -1385,6 +1385,61 @@ Wire Wire Line
 Wire Wire Line
 	2300 5300 2100 5300
 NoConn ~ 2300 3900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F53C8C0
+P 6250 6750
+F 0 "H1" H 6350 6796 50  0000 L CNN
+F 1 "MountingHole" H 6350 6705 50  0000 L CNN
+F 2 "mylib:Hole_3.2mm_NPTH" H 6250 6750 50  0001 C CNN
+F 3 "~" H 6250 6750 50  0001 C CNN
+	1    6250 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F53E0CD
+P 6250 6950
+F 0 "H2" H 6350 6996 50  0000 L CNN
+F 1 "MountingHole" H 6350 6905 50  0000 L CNN
+F 2 "mylib:Hole_3.2mm_NPTH" H 6250 6950 50  0001 C CNN
+F 3 "~" H 6250 6950 50  0001 C CNN
+	1    6250 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F53E326
+P 6250 7150
+F 0 "H3" H 6350 7196 50  0000 L CNN
+F 1 "MountingHole" H 6350 7105 50  0000 L CNN
+F 2 "mylib:Hole_3.2mm_NPTH" H 6250 7150 50  0001 C CNN
+F 3 "~" H 6250 7150 50  0001 C CNN
+	1    6250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F53E56E
+P 6250 7350
+F 0 "H4" H 6350 7396 50  0000 L CNN
+F 1 "MountingHole" H 6350 7305 50  0000 L CNN
+F 2 "mylib:Hole_3.2mm_NPTH" H 6250 7350 50  0001 C CNN
+F 3 "~" H 6250 7350 50  0001 C CNN
+	1    6250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x21_Male J?
+U 1 1 5F5DBB58
+P -550 2500
+F 0 "J?" H -442 3681 50  0000 C CNN
+F 1 "Conn_01x21_Male" H -442 3590 50  0000 C CNN
+F 2 "" H -550 2500 50  0001 C CNN
+F 3 "~" H -550 2500 50  0001 C CNN
+	1    -550 2500
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	5000 6600 5000 6800
 Wire Bus Line
